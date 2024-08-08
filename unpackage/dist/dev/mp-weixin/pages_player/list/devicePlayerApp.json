@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "播放器",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-loading-page": "/uni_modules/uview-ui/components/u-loading-page/u-loading-page",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

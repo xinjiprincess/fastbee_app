@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-badge": "/uni_modules/uview-ui/components/u-badge/u-badge",
+    "u-link": "/uni_modules/uview-ui/components/u-link/u-link",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u-col": "/uni_modules/uview-ui/components/u-col/u-col",
+    "vip-model": "/components/model/vip-model"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "物模列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-slider": "/uni_modules/uview-ui/components/u-slider/u-slider",
+    "u-radio-group": "/uni_modules/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uni_modules/uview-ui/components/u-radio/u-radio",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input"
+  }
+}

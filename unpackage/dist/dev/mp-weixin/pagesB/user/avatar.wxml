@@ -1,0 +1,1 @@
+<page-meta><navigation-bar title="裁剪" title-align="center" background-color="#007AFF"></navigation-bar></page-meta><cropping vue-id="d51698a8-1" source="{{({album:'相册'})}}" imageUrl="{{avatarUrl}}" data-event-opts="{{[['^cancel',[['handleCancel']]],['^success',[['handleSuccess']]]]}}" bind:cancel="__e" bind:success="__e" bind:__l="__l"></cropping>

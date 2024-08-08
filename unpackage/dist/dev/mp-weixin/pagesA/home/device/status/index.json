@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "base-status": "/pagesA/home/device/status/base"
+  }
+}

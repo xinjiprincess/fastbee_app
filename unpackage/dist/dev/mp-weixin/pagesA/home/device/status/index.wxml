@@ -1,0 +1,1 @@
+<view><block wx:if="{{!isSubDev}}"><base-status class="vue-ref" vue-id="2ad56d34-1" device="{{device}}" data-ref="baseStatus" bind:__l="__l"></base-status></block></view>

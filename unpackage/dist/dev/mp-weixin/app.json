@@ -1,0 +1,101 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/login/register",
+    "pages/login/bindLogin",
+    "pages/login/bindRegister",
+    "pages/login/smsLogin",
+    "pages/tabBar/home/index",
+    "pages/tabBar/trend/trend",
+    "pages/tabBar/user/index",
+    "pages/common/webview/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "home/device/index",
+        "home/device/timing/list",
+        "home/device/timing/detail",
+        "home/device/model",
+        "list/trend/trendDetail",
+        "list/trend/categoryTrend",
+        "list/home/deviceAdd",
+        "list/home/deviceRelate",
+        "device/share/list",
+        "device/share/detail"
+      ]
+    },
+    {
+      "root": "pagesB",
+      "pages": [
+        "user/about",
+        "list/user/message",
+        "list/user/messageDetail",
+        "list/user/setting",
+        "user/account",
+        "user/resetPsd",
+        "user/avatar",
+        "user/secureBind",
+        "user/deviceGroup/index",
+        "user/deviceGroup/detail",
+        "user/deviceGroup/devices",
+        "home/device/log/event",
+        "home/device/log/order"
+      ]
+    },
+    {
+      "root": "pages_player",
+      "pages": [
+        "list/devicePlayer",
+        "list/devicePlayerApp"
+      ]
+    }
+  ],
+  "window": {
+    "pageOrientation": "portrait",
+    "navigationBarTitleText": "蜂信物联",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/trend/trend",
+        "iconPath": "static/trend.png",
+        "selectedIconPath": "static/trend_active.png",
+        "text": "动态"
+      },
+      {
+        "pagePath": "pages/tabBar/user/index",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "便于您使用该功能获取当前位置天气情况、WIFI列表等场景。"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

@@ -1,0 +1,15 @@
+
+.circle-progress.data-v-395a69a4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin:auto;
+}
+.canvas-bg.data-v-395a69a4 {
+    position: absolute;
+}
+.canvas.data-v-395a69a4 {
+    position: absolute;
+}
+
