@@ -20,7 +20,7 @@ const CONFIG = {
 		officialWebUrl: 'https://fastbee.cn/',
 		baseUrl: 'http://localhost:8080',
 		mqttServer: protocalDev + 'localhost:8080/mqtt',
-		decoderUrl: 'http://localhost:8080',
+		decoderUrl: 'http://localhost/', //主项目前端部署地址,能访问到js/jessibuca/decoder.js文件
 		qqmapKey,
 		xinzhiKey,
 	},
@@ -29,7 +29,7 @@ const CONFIG = {
 		officialWebUrl: 'https://fastbee.cn/',
 		baseUrl: 'http://localhost:8080/',
 		mqttServer: protocalProd + 'localhost:8080/mqtt',
-		decoderUrl: 'http://localhost:8080',
+		decoderUrl: 'http://localhost/', //主项目前端部署地址,能访问到js/jessibuca/decoder.js文件
 		qqmapKey,
 		xinzhiKey,
 	}
